@@ -1,12 +1,20 @@
 public class Main {
 	public static void main(String[] args) {
-		
+		// sebelum update
 		String nama ;
-		nama =  " farham";
-		System.out.println(" hai namaku = " + nama);
-		long  umur ;
-		umur = 18;
-		System.out.println(" saat ini  umurku = " +umur + " tahun");
+		long berat;
+		nama = "Farham";
+		berat = 45;
+		
+		System.out.println(" nama awal =  " + nama );
+		System.out.println(" berat awal = " + berat + " kg");
+		
+	// setelah update 
+	  nama = " paang ";
+	  berat = 50;
+	  System.out.println("nama setelah update  = " +  nama );
+	  System.out.println(" berat setelah update  = " + berat + " kg");
+	  
 		
 	}
 }
