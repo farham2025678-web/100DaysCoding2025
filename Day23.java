@@ -3,6 +3,6 @@ public class Main {
 	  double  panjang = 11.5;
 	  double lebar = 5.1;
 	  double luas = panjang*lebar;
-	  System.out.println("luas persegi panjang :" + luas);
+	  System.out.println("luas persegi panjang :" + luas +"cm");
 	}
 }
