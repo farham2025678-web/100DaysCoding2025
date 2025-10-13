@@ -11,6 +11,7 @@ if (nilai >= 80) {
         System.out.println("Nilai Anda B");
     }
 } else {
-    System.out.println("Nilai Anda tidak memenuhi syarat");
+    System.out.println(" Anda tidak lulus");
 }
 	}
+}
