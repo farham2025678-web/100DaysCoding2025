@@ -6,11 +6,11 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Masukkan nilai: ");
+        System.out.print("Masukkan angka: ");
         int angka = scanner.nextInt();
 
-        String angka = nilai %2==0? "genap" : "Ganjil";
-        System.out.println(angka);
+        String hasil = angka %2==0? "genap" : "Ganjil";
+        System.out.println(hasil);
     }
 
 	
