@@ -3,7 +3,7 @@ public class main{
         for (int i = 1; i <= 20;i++) {
             System.out.println("Angka: " + i);
             if (i == 10){
-                System.out.println("Berhenti di angka 20!");
+                System.out.println("Berhenti di angka 10!");
                 break;
             }
         }
