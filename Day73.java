@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class main{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int jumlah = 0;
+        
 
         while (true) {
             System.out.print("Masukkan angka pertama : ");
@@ -14,7 +14,7 @@ public class main{
             int angka2 = scanner.nextInt();
             if (angka2 < 0) break;
 
-            jumlah = angka1 + angka2;
+           int jumlah = angka1 + angka2;
             System.out.println("Hasil penjumlahan:  " + jumlah);
         }
     }
