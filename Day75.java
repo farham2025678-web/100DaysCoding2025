@@ -1,4 +1,4 @@
-public class StringMethod {
+public class main {
     public static void main(String[] args) {
         
         String nama = "Farham.A";
