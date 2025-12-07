@@ -6,6 +6,6 @@ public class main{
 
     public static void hitungLuas(int panjang, int lebar) {
         int luas = panjang * lebar;
-        System.out.println("Luas persegi panjang dengan panjang   adalah: " + luas);
+        System.out.println("Luas persegi panjang  adalah: " + luas);
     }
 }
